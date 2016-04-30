@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20160325170030_create_todo_items.rb
+      create    app/models/todo_item.rb
+      invoke    test_unit
+      create      test/models/todo_item_test.rb
+      create      test/fixtures/todo_items.yml
